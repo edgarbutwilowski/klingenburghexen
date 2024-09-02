@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: rgb(174, 0, 35);
+}
+
+@font-face {
+    font-family: "metamorphous-regular";
+    src: url('res/Metamorphous-Regular.ttf') format('truetype');
+}
+
+.menu {
+    color: white;
+    font-family: sans-serif;
+    padding: 1em;
+    background-color: rgb(2, 70, 181);
+    a {
+        margin: 1em;
+        padding: 0.1em;
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a:hover {
+        background-color: rgb(28, 86, 180);
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        text-decoration: none;
+    }
+    a:active {
+        text-decoration: none;
+    }
+}
+
+.hero {
+    width: 100%;
+    height: 82%;
+    text-align: center;
+    background: url("res/pic1.jpg") no-repeat center /cover;
+}
