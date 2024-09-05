@@ -16,3 +16,7 @@ if(sendmailButton){
             + kontaktText + "%0A%0A" + vornameText + " " + nachnameText, "_blank", "noreferrer");
     }    
 }
+
+let alterHexengeistElt = document.getElementById("alter_hexengeist");
+if(alterHexengeistElt)
+    alterHexengeistElt.innerHTML = "" + new Date().getFullYear() - 1651;
