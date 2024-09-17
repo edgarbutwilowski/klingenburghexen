@@ -14,6 +14,7 @@ body {
     padding: 1em;
     background-color: rgb(2, 70, 181);
     a {
+        color: white;
         margin: 1em;
         padding: 0.1em;
     }
